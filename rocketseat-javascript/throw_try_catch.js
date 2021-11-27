@@ -1,6 +1,6 @@
 // throw
 
-function nome(name = '') {
+function nome(name = ' ') {
     if (name === '') {
         throw 'Nome é obrigatório'
     }
