@@ -8,9 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="titulo">Seja Bem Vindo !</div>
+    <img src="imagens/menino.jpg"  data-genero="M" alt="foto" class="imagem"> <br>
 
-    <input id="campo" type="text" name="usuario" value="Nome do Usuário">
+    <button onclick="trocarImagem('menino.jpg', 'Masculino ')">Menino</button>
+    <button  onclick="trocarImagem('menina.jpg', 'Feminino')">Menina</button>
+    
+
+    <button onclick="pegarSexo()">Qual é o sexo ?</button>
     
 
     <script src="script.js"></script>
